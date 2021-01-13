@@ -9,14 +9,14 @@ const StyledHeaeerWrapper = styled.div`
 `
 
 const StyledName = styled.h1`
-  color: #FFF;
+  color: #D8F3DC;
   font-size: 500%;
   margin: 4% 0 2% 0;
   text-align: center;
 `
 
 const StyledJobTitle = styled.h3`
-  color: #FFF;
+  color: #D8F3DC;
   font-size: 150%;
   text-align: center;
 `
