@@ -1,16 +1,13 @@
 import './App.css'
-import styled from 'styled-components'
-
-const StyledDiv = styled.div`
-  color: green;
-  font-size: 200%;
-`
+import { Header } from './components/Header/Header'
+import { Nav } from './components/Nav/Nav'
 
 const App = () => {
   return (
-    <StyledDiv>
-      Hello World !
-    </StyledDiv>
+    <div>
+      <Nav />
+      <Header />
+    </div>
   )
 }
 
