@@ -3,7 +3,7 @@ export const resumeData = {
   turingAlumniURL: 'https://alumni.turing.io/alumni/johnny-cassidy',
   gitHubURL: 'https://github.com/pJanks',
   twitterURL: 'https://twitter.com/pJanksio',
-  linkedInURL: 'https://www.linkedin.com/in/johnnycassidy',
+  linkedInURL: 'https://www.linkedin.com/in/johnnykcassidy',
   bioDescription: 'My name is Johnny Cassidy and I am a JavaScript developer with a heavy emphasis on frontend development and functionality. I enjoy the benefits of test driven development and object-oriented programming combined with agile workflow practices. I have built many accessible applications consuming RESTful APIs and augmented with robust testing suites. My main focus in the past has been using JavaScript, HTML5, CSS3, jQuery, React.js, and React Native which I am most comfortable with. I am currently trying to layer Next.js on top of React in order to continue building my skills and keep my fingers on my keyboard.',
   education: {
     school: 'Turing School of Software & Design',
