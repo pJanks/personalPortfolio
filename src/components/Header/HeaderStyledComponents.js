@@ -5,13 +5,14 @@ export const StyledHeaderWrapper = styled.section`
   display: flex;
   flex-direction: column;
   justify-content: center;
+  margin-bottom: 0;
   width: 100%;
 `
 
 export const StyledName = styled.h1`
   color: #D8F3DC;
   font-size: 500%;
-  margin: 4% 0 2% 0;
+  margin: 10% 0 0 0;
   text-align: center;
 `
 
