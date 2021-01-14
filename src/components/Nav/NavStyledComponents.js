@@ -5,7 +5,7 @@ export const StyledNavWrapper = styled.nav`
   background-color: #74C69D;
   display: flex;
   height: 70px;
-  justify-content: center;
+  justify-content: space-around;
   width: 100%;
 `
 export const StyledNavButton = styled.button`
