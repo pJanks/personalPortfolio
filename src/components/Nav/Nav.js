@@ -6,10 +6,6 @@ export const Nav = () => {
     document.querySelector(`#${section}`).scrollIntoView({behavior: 'smooth'});
   }
 
-  // const handleButtonClicks = (e) => {
-  //   console.log(e.target.innerText)
-  // }
-
   return (
     <StyledNavWrapper>
       <StyledNavButton onClick={(e) => handleButtonClicks(e.target.innerText.toLowerCase())}>Home</StyledNavButton>
