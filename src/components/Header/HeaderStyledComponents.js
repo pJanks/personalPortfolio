@@ -34,5 +34,8 @@ export const StyledIcon = styled.img`
 
   &:hover {
     cursor: pointer;
+    height: 70px;
+    margin: 10vh 3vw 0 3vw;
+    width: 80px;
   }
 `
