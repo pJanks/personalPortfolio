@@ -4,7 +4,7 @@ import profilePicture from '../../images/profilePicture.png'
 
 export const About = () => {
   return (
-    <StyledAboutSection>
+    <StyledAboutSection id='about'>
       <StyledPortrait alt='photo of johnny cassidy' src={profilePicture} />
       <StyledAboutInfo>
         <StyledAboutParagraph>
