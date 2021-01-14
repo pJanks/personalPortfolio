@@ -2,17 +2,21 @@ import { StyledNavWrapper, StyledNavButton } from './NavStyledComponents'
 
 export const Nav = () => {
 
-const handleButtonClicks = (e) => {
-  console.log(e.target.innerText)
-}
+  const handleButtonClicks = (section) => {
+    document.querySelector(`#${section}`).scrollIntoView({behavior: 'smooth'});
+  }
+
+  // const handleButtonClicks = (e) => {
+  //   console.log(e.target.innerText)
+  // }
 
   return (
     <StyledNavWrapper>
-      <StyledNavButton onClick={(e) => handleButtonClicks(e)}>Home</StyledNavButton>
-      <StyledNavButton onClick={(e) => handleButtonClicks(e)}>About</StyledNavButton>
-      <StyledNavButton onClick={(e) => handleButtonClicks(e)}>Experience</StyledNavButton>
-      <StyledNavButton onClick={(e) => handleButtonClicks(e)}>Projects</StyledNavButton>
-      <StyledNavButton onClick={(e) => handleButtonClicks(e)}>Contact</StyledNavButton>
+      <StyledNavButton onClick={(e) => handleButtonClicks(e.target.innerText.toLowerCase())}>Home</StyledNavButton>
+      <StyledNavButton onClick={(e) => handleButtonClicks(e.target.innerText.toLowerCase())}>About</StyledNavButton>
+      <StyledNavButton onClick={(e) => handleButtonClicks(e.target.innerText.toLowerCase())}>Experience</StyledNavButton>
+      <StyledNavButton onClick={(e) => handleButtonClicks(e.target.innerText.toLowerCase())}>Projects</StyledNavButton>
+      <StyledNavButton onClick={(e) => handleButtonClicks(e.target.innerText.toLowerCase())}>Contact</StyledNavButton>
     </StyledNavWrapper>
   )
 }
