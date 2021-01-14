@@ -27,12 +27,15 @@ export const StyledSocialMediaWrapper = styled.div`
   width: 30%;
 `
 
-export const StyledIcons = styled.img`
+export const StyledIcon = styled.img`
   height: 50px;
   margin: 13vh 3vw 0 3vw;
   width: 50px;
 
   &:hover {
     cursor: pointer;
+    height: 70px;
+    margin: 10vh 3vw 0 3vw;
+    width: 80px;
   }
 `
