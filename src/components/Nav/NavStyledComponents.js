@@ -3,6 +3,7 @@ import styled from 'styled-components'
 export const StyledNavWrapper = styled.nav`
   align-items: center;
   background-color: #74C69D;
+  box-shadow: 0px 5px 13px 0px #000;
   display: flex;
   height: 13vh;
   justify-content: space-around;
