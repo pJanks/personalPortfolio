@@ -6,6 +6,8 @@ export const StyledAboutSection = styled.section`
   display: flex;
   height: 100vh;
   justify-content: space-between;
+  padding-bottom: 2%;
+  padding-top: 13vh;
   width: 100%;
 `
 
@@ -13,7 +15,7 @@ export const StyledPortrait = styled.img`
   border-radius: 100%;
   height: 200px;
   margin-left: 2%;
-  margin-bottom: 25%;
+  margin-top: -18%;
   width: 200px;
 `
 
@@ -39,24 +41,28 @@ export const StyledContactInfo = styled.section`
 
 export const StyledAboutParagraph = styled.p`
   background-color: inherit;
-  margin: 0 4% 10% 4%;
+  font-size: 90%;
+  margin: 4% 4% 0 4%;
 `
 
 export const StyledContactLabel = styled.label`
   background-color: inherit;
-  font-size: 120%;
+  font-size: 113%;
   text-decoration: underline;
+  margin-top: 4%;
   width: 100%;
 `
 
 export const StyledContactInfoSpan = styled.span`
   background-color: inherit;
+  font-size: 90%;
   width: 100%;
 `
 
 export const StyledContactInfoLink = styled.a`
   background-color: inherit;
   color: #95D5B2;
+  font-size: 90%;
   width: fit-content;
 `
 
@@ -65,8 +71,9 @@ export const ContactInfoButton = styled.button`
   border-radius: 30px;
   color: #95D5B2;
   font-size: 110%;
-  margin: 8% 0 0 0;
-  padding: 10%;
+  margin-top: 10%;
+  margin-bottom: 5%;
+  padding: 13%;
   width: fit-content;
 
   &:hover {
