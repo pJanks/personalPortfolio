@@ -15,7 +15,7 @@ export const StyledPortrait = styled.img`
   border-radius: 100%;
   height: 200px;
   margin-left: 2%;
-  margin-top: -18%;
+  margin-top: -19%;
   width: 200px;
 `
 
@@ -26,7 +26,7 @@ export const StyledAboutInfo = styled.div`
   flex-direction: column;
   font-size: 115%;
   font-weight: bold;
-  line-height: 150%;
+  line-height: 130%;
   margin: 3%;
 `
 
@@ -71,7 +71,7 @@ export const ContactInfoButton = styled.button`
   border-radius: 30px;
   color: #95D5B2;
   font-size: 110%;
-  margin-top: 10%;
+  margin-top: 35%;
   margin-bottom: 5%;
   padding: 13%;
   width: fit-content;
