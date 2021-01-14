@@ -1,42 +1,27 @@
 import { resumeData } from '../../resumeData'
-import styled from 'styled-components'
-
-const StyledSkillsWrapper = styled.section`
-  background-color: #95D5B2;
-  display: flex;
-  padding: 1%;
-  width: 100%;
-`
-
-const StyledSkillsHeader = styled.h3`
-  background-color: #95D5B2;
-  font-size: 200%;
-  margin: 3%;
-  padding: 3%;
-  text-decoration: underline;
-`
-
-const StyledUnorderedList = styled.ul`
-  background-color: #95D5B2;
-  margin-top: 6%;
-  width: 60%;
-`
-const StyledListItem = styled.li`
-  background-color: #95D5B2;
-  font-size: 150%;
-  font-weight: bold;
-  margin-left: 30%;
-`
+import { StyledWrapper, StyledSchoolListItem, StyledSchoolName, StyledSchoolInfo, StyledSchoolUnorderedList, StyledHeader, StyledSchoolContainer,  StyledUnorderedList, StyledListItem } from './SkillsAndEducationStyledComponents'
 
 export const SkillsAndEducation = () => {
   return (
     <>
-      <StyledSkillsWrapper>
-        <StyledSkillsHeader>Tech Skills</StyledSkillsHeader>
+      <StyledWrapper>
+        <StyledHeader>Tech Skills</StyledHeader>
         <StyledUnorderedList>
           {resumeData.techSkills.map(skill => <StyledListItem key={skill}>{skill}</StyledListItem>)}
         </StyledUnorderedList>
-      </StyledSkillsWrapper>
+      </StyledWrapper>
+
+      <StyledWrapper>
+        <StyledHeader>Education</StyledHeader>
+        <StyledSchoolContainer>
+          <StyledSchoolName>{resumeData.education.school}</StyledSchoolName>
+          <StyledSchoolInfo>{resumeData.education.position}</StyledSchoolInfo>
+          <StyledSchoolInfo>{resumeData.education.time}</StyledSchoolInfo>
+          <StyledSchoolUnorderedList>
+            {resumeData.education.description.map(element => <StyledSchoolListItem key={element}>{element}</StyledSchoolListItem>)}
+          </StyledSchoolUnorderedList>
+        </StyledSchoolContainer>
+      </StyledWrapper>
     </>
   )
 }
